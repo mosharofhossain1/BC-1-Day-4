@@ -19,3 +19,35 @@
 .menu li a:hover{
     background-color: orange;
 }
+
+.div{
+    background-color: #FFF4A3;
+    padding: 20px;
+}
+
+.multi_div{
+    background-color: #FFF4A3;
+    padding: 10px;
+}
+.myContainer{
+   width: 100%;
+}
+.myContainer div{
+    width: 33%;
+    float: left;
+}
+
+.myContainer2 div{
+    display: inline-block;
+    width: 30%;
+}
+.myContainer3{
+    display: flex;
+}
+.myContainer3 div{
+    width: 33%;
+}
+.myContainer4{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
